@@ -6,4 +6,8 @@ describe("G2i Tests", () => {
   test("Object is a function", () => {
     expect(typeof Object).toBe("function");
   });
+
+  test("Array is a function", () => {
+    expect(typeof Array).toBe("function");
+  });
 });
