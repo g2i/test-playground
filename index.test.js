@@ -10,4 +10,8 @@ describe("G2i Tests", () => {
   test("Array is a function", () => {
     expect(typeof Array).toBe("function");
   });
+
+  test("My Name is John", () => {
+    expect("John").toBe("John");
+  });
 });
