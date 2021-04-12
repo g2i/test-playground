@@ -11,7 +11,7 @@ describe("G2i Tests", () => {
     expect(typeof Array).toBe("function");
   });
 
-  test("My Name is John", () => {
-    expect("John").toBe("John");
+  test("My Name is Daniel ", () => {
+    expect("Daniel").toBe("Daniel");
   });
 });
