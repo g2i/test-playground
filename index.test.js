@@ -14,4 +14,9 @@ describe("G2i Tests", () => {
   test("My Name is John", () => {
     expect("John").toBe("John");
   });
+
+  test("it can see node env as test", () => {
+    const env = process.env.NODE_ENV;
+    expect(env).toEqual('test');
+  })
 });
